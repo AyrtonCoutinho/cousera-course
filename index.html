@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of [Your Name], showcasing projects, skills, and contact information." />
+    <title>[Your Name] Portfolio</title>
+    <link rel="stylesheet" href="testcss.css" />
+  </head>
+  <body>
+    <header>
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>[Your Name]</h1>
+      <p>Web Developer & Designer</p>
+    </header>
+
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm [Your Name], a passionate web developer with experience in building accessible and responsive websites.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <article>
+          <figure>
+            <img src="project1.jpg" alt="Screenshot of Project 1" />
+            <figcaption>Project 1: Portfolio Website</figcaption>
+          </figure>
+          <p>A personal portfolio website built with HTML, CSS, and JavaScript.</p>
+        </article>
+        <article>
+          <figure>
+            <img src="project2.jpg" alt="Screenshot of Project 2" />
+            <figcaption>Project 2: To-Do App</figcaption>
+          </figure>
+          <p>A simple and accessible to-do list application.</p>
+        </article>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Accessibility (a11y)</li>
+          <li>Responsive Design</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
